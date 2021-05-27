@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5; /**Colocando a cor de fundo**/
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+    font-weight: normal;
+}
+/*--------------------------HEADER--------------------------*/
+header{
+    background-color: #00ffff;
+    padding: 2rem 0 10rem; /*Topo, Direita, Baixo, Esquerda*/
+    text-align: center;
+
+}
+
+#logo{              /*Para identificar o id em css, usa-se o #*/
+    color: #9932CC;
+    font-weight: 100;
+}
+
+/*------------------------BALANCE-------------------------*/
+#balance{
+    margin-top: -8rem;
+
+}
+
+#balance h2{
+    color: white;
+    margin-top: 0;
+}
+/*FOOTER ------------------------*/
+footer{
+    text-align: center;
+}
